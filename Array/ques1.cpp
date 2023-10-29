@@ -1,9 +1,11 @@
 //Program to find the minimum or maximum element of an array
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int maxnum(int arr[], int n){
+int maxnum(vector<int> arr){
+    int n = (int)arr.size();
     int maxx=arr[0];
     for (int i=0;i<n;i++)
     {
@@ -15,12 +17,11 @@ int maxnum(int arr[], int n){
     }
     return maxx;
 }
-int minnum(int arr[],int n){
-int minn=2147483647;
-    for (int i=0; i<n ;i++)
-    {   
-        if (arr[i]<minn)
-        {
+int minnum(vector<int> arr){
+    int n = (int)arr.size();
+    int minn=2147483647;
+    for (int i=0; i<n ;i++){   
+        if (arr[i]<minn){
             minn=arr[i];
         }
         else continue;
@@ -29,10 +30,9 @@ int minn=2147483647;
 }
 // driver code
 int main(){
-    int arr[10]={10,13,53,34,56,634,43,756,5554,0};
-    cout<<"maximum "<<maxnum(arr,10)<<endl;
-    cout<<"minimum "<<minnum(arr,10)<<endl;
-
+    vector<int> arr={10,13,53,34,56,634,43,756,5554,0};
+    cout<<"maximum "<<maxnum(arr)<<endl;
+    cout<<"minimum "<<minnum(arr)<<endl;
     return 0;
 }
 
