@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+
 bool SeantinalLinearSearch(int arr[],int ele, int n){
-   int last = arr[n-1];
+        int last = arr[n-1];
         arr[n-1]= ele;
         int i=0;
         while( arr[i]!=ele) i++;
