@@ -19,7 +19,6 @@ bool ExpotentialSearch(vector<int>arr,int val){
     while( i<n && arr[i]<=val)
         i*=2;
     return BinarySearch(arr,val,i/2,min(i,n-1));
-
 }
 
 int main(){
