@@ -8,6 +8,7 @@ bool FibonacciSearch(vector<int> arr, int ele){
     int fib2=1;
     int fib3=fib1+fib2;
     int n = (int)arr.size();
+    
     while( fib3<n){
         fib1=fib2;
         fib2=fib3;
