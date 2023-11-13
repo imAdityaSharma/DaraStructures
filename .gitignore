@@ -1,2 +1,4 @@
 *.json
 *.exe
+*.o
+.vscode/launch.json

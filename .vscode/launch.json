@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Adity/Desktop/DSA",
-      "program": "c:/Users/Adity/Desktop/DSA/build/Debug/outDebug",
+      "cwd": "c:/Users/Adity/OneDrive/Desktop/DSA/Array",
+      "program": "c:/Users/Adity/OneDrive/Desktop/DSA/Array/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
