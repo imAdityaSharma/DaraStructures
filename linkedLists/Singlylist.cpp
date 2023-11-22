@@ -20,8 +20,7 @@ class LinkedList {
                         Node* head;
                     public:
                     LinkedList() {
-                        head = nullptr;
-                        }
+                        head = nullptr; }
                     void insertAtHead(int data){
                             Node* newNode = new Node;
                             newNode->data = data;
