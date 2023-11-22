@@ -1,14 +1,3 @@
-// #include<iostream>
-
-// class node{
-//     private: 
-//         int data= NULL;
-//         int *next;
-//     public:
-//         node(int data)
-
-// }
-
 #include<iostream>
 using namespace std;
 struct Node {
